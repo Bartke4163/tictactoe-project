@@ -85,6 +85,7 @@ const GameController = (() => {
 
   function startGame() {
     if (playerOne.value === '' || playerTwo.value === '') {
+      alert('Input the player names!');
       return;
     }
     Game.pOneName =
